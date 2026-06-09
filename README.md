@@ -49,11 +49,8 @@ Rather than feeding raw stock prices straight into the model, this pipeline math
 
 - **Daily Returns:** Tracks the percentage change of the close price day-over-day.
 - **Rolling Momentum:** Measures standard 21-day (approx. 1 trading month) price directional momentum.
-- **Annualized Volatility:** Converts short-term daily volatility into a standard annual metric using the quantitative formula:
+- **Annualized Volatility:** Converts short-term daily volatility into a standard annual metric using the quantitative formula
 
-$$\sigma_{ann} = \sigma_{daily} \sqrt{252}$$
-
-> Where $252$ represents the total average trading days in a standard calendar year.
 
 ---
 
